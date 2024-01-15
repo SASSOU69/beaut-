@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+
+}
+
+main {
+    background: url(../images/Fond\ site\ beauté.jpg)no-repeat;
+}
+
+.row-limit-size {
+    min-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.burger>ul>li {
+    display: none;
+    background-color: beige;
+    border: 2px solid beige;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: rgba(243, 205, 107, 0.28);
+    min-width: 600px;
+    width: 39%;
+}
+
+header figure {
+    padding: 20px 10px;
+
+}
+
+header nav ul {
+    list-style-type: none;
+
+}
+
+.main-menu ul li {
+    position: relative;
+}
+
+.main-menu>ul>li>a {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+    .main-menu>ul>li>a {
+        padding: 0 5px;
+    }
+}
+
+.picto-haut {
+    text-align: center;
+    margin-top: -60px;
+}
+
+.presentation {
+    background: url(../images/Spa\ &\ Beauty.jpg)no-repeat;
+    padding: 50px 30px;
+    height: 400px;
+}
+
+.presentation p {
+    text-align: justify;
+    justify-content: flex-start;
+    color: #2b2823;
+    font-family: 'Jim Nightshade', cursive;
+    background: none;
+    padding: 100px 100px;
+    margin-top: 150px;
+}
+
+.services p {
+    background: none;
+    text-align: justify;
+    font-family: 'Jim Nightshade', cursive;
+    color: 2B2823;
+    padding: 100px;
+    line-height: 1.5;
+}
+
+.detente .row-limit-size {
+    align-items: self-start;
+    height: 200px;
+    width: 50%;
+    min-width: 600px;
+}
+
+h1 .row-limit-size {
+ justify-content: center;
+    color: black;
+ font-size: 5px;
+}
+
+.social .row-limit-size {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
