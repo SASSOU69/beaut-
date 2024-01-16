@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+
+}
+
+body {
+    background: url(../images/fond\ site\ opacité\ réduite.png)no-repeat;
+    background-size: cover;
+
+}
+
+.row-limit-size {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.burger>ul>li {
+    display: none;
+    background-color: beige;
+    border: 2px solid beige;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.picto-haut {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.burger {
+    margin: 20px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+h1 p {
+    margin-bottom: 80px;
+}
+
+.mains {
+    border: 1px solid #777;
+    position: relative;
+    flex-wrap: wrap;
+    display: block;
+    display:flex;
+    width: 80%;
+margin:80px 0;
+}
+
+.cils {
+    border: 1px solid #777;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: flex-start;
+    width: 80%;
+}
+
+h3 {
+    margin: 10px;
+    margin-left: 80px;
+}
+
+.cils p {
+    text-align: center;
+    margin: 50px;
+}
+
+
+.visage{
+    border: 1px solid #777;
+    position: relative;
+    flex-wrap: wrap;
+    display: block;
+    display:flex;
+    width: 80%;
+margin:80px 0;
+}
+
+.épilations{
+    border: 1px solid #777;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: flex-start;
+    width: 80%;
+}
+
+h6 {
+    text-align: center;
+      color: #222;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .social  {
+      display: block;
+      display: flex;
+      justify-content: space-around;
+      justify-content: space-between;
+  }

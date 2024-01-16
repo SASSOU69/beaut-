@@ -2,18 +2,26 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    vertical-align: baseline;
-
+   
+}
+body{
+    background: url(../images/fond\ site\ opacité\ réduite.png)no-repeat;
+    background-size: cover;
 }
 
-main {
-    background: url(../images/Fond\ site\ beauté.jpg)no-repeat;
+nav img{
+
 }
 
 .row-limit-size {
-    min-width: 600px;
+    min-width: 900px;
     width: 100%;
     margin: 0 auto;
+}
+
+.picto-haut{
+align-items: start;
+    z-index: 2;
 }
 
 li {
@@ -35,10 +43,9 @@ li {
     display: flex;
 }
 
-header {
-    background-color: rgba(243, 205, 107, 0.28);
-    min-width: 600px;
-    width: 39%;
+header .head-top {
+ text-align: center;
+ justify-content: space-between;
 }
 
 header figure {
@@ -67,56 +74,56 @@ header nav ul {
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 932px) {
     .main-menu>ul>li>a {
         padding: 0 5px;
     }
+
 }
 
-.picto-haut {
-    text-align: center;
-    margin-top: -60px;
-}
 
 .presentation {
     background: url(../images/Spa\ &\ Beauty.jpg)no-repeat;
+    height: 800px;
+    background-size: cover;
     padding: 50px 30px;
-    height: 400px;
+
 }
 
 .presentation p {
-    text-align: justify;
-    justify-content: flex-start;
+    text-align:center;
+ font-size: 50px;
     color: #2b2823;
     font-family: 'Jim Nightshade', cursive;
     background: none;
-    padding: 100px 100px;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .services p {
     background: none;
-    text-align: justify;
+    text-align: center;
     font-family: 'Jim Nightshade', cursive;
-    color: 2B2823;
+    color: #2B2823;
     padding: 100px;
     line-height: 1.5;
+    font-size: 50px;
 }
 
-.detente .row-limit-size {
-    align-items: self-start;
-    height: 200px;
-    width: 50%;
-    min-width: 600px;
+.detente {
+display: flex;
+    height: 800px;
+ background-size: cover;
+margin-left: 250px;
 }
 
-h1 .row-limit-size {
- justify-content: center;
-    color: black;
- font-size: 5px;
+h1 {
+  text-align: center;
+    color: #222;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.social .row-limit-size {
+.social  {
     display: block;
     display: flex;
     justify-content: space-around;

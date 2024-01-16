@@ -1,6 +1,12 @@
-const burgerButton= document.getElementById(".burger")
-const mainMenu = document.getElementsByClassName("main-menu")[0];
+const links= document.querySelectorAll("nav li")
+console.log("links)")
 
-burgerButton.addEventListener("click", function(){
-    mainMenu.computedStyleMap.display = "block";
+burger.addEventListener("click", function() => {
+    nav.mainMenu.toggle("active");
 });
+
+links.forEach((link)=>{
+    link.addEventListener("click", ( =>{
+        nav.classlist.remove("active")
+    }))
+})
