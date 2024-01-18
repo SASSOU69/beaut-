@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-   
+
 }
-body{
+
+body {
     background: url(../images/fond\ site\ opacité\ réduite.png)no-repeat;
     background-size: cover;
 }
 
-nav img{
 
-}
 
 .row-limit-size {
     min-width: 900px;
@@ -19,8 +18,8 @@ nav img{
     margin: 0 auto;
 }
 
-.picto-haut{
-align-items: start;
+.picto-haut {
+    align-items: start;
     z-index: 2;
 }
 
@@ -44,8 +43,8 @@ li {
 }
 
 header .head-top {
- text-align: center;
- justify-content: space-between;
+    text-align: center;
+    justify-content: space-between;
 }
 
 header figure {
@@ -91,8 +90,8 @@ header nav ul {
 }
 
 .presentation p {
-    text-align:center;
- font-size: 50px;
+    text-align: center;
+    font-size: 50px;
     color: #2b2823;
     font-family: 'Jim Nightshade', cursive;
     background: none;
@@ -110,20 +109,20 @@ header nav ul {
 }
 
 .detente {
-display: flex;
+    display: flex;
     height: 800px;
- background-size: cover;
-margin-left: 250px;
+    background-size: cover;
+    margin-left: 250px;
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
     color: #222;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.social  {
+.social {
     display: block;
     display: flex;
     justify-content: space-around;

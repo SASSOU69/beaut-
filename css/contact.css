@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+body {
+    background: url(../images/fond\ site\ opacité\ réduite.png) no-repeat;
+    background-size: cover;
+}
+
+
+.row-limit-size {
+    min-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.picto-haut {
+    align-items: center;
+    z-index: 2;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.burger>ul>li {
+    display: none;
+    background-color: beige;
+    border: 2px solid beige;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+header .head-top {
+    text-align: center;
+    justify-content: space-between;
+}
+
+header figure {
+    padding: 20px 10px;
+
+}
+
+header nav ul {
+    list-style-type: none;
+
+}
+
+.main-menu ul li {
+    position: relative;
+}
+
+.main-menu>ul>li>a {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 50px;
+    background-color: rgba(217, 217, 217, 0.51);
+}
+
+main p {
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 30px;
+    background-color: rgba(217, 217, 217, 0.51);
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+.salon img {
+    width: 100%;
+height: 700px;
+}
+
+section#contact {
+    padding: 50px 10px;
+}
+
+section#contact .container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+
+section#contact .container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+
+section#contact .container form input {
+    width: 45%;
+}
+
+section#contact .container form input:hover,
+section#contact .container form textarea:hover {
+    border-bottom: 2px solid #222;
+}
+
+section#contact .container form input,
+section#contact .container form textarea {
+    margin-bottom: 20px;
+    margin: 15px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+    transition: 0.2s;
+}
+
+
+section#contact .container form textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 60px;
+}
+
+section#contact .container form button {
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(217, 217, 217, 0.51);
+    color: #222;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+section#contact .container form button:hover {
+    transform: translateY(-5px)
+}
+
+@media screen and (max-width:500px) {
+    section#contact .container form {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    section#contact .container form input {
+        width: 100%;
+    }
+}
+
+.picto {
+    display: flex;
+   margin-bottom: 40px;
+}
+
+.mail {
+    margin-bottom: 20px;
+}
+
+.cadre{
+    width: 300px;
+    height: 200px;
+    background-origin: 1px solid #777;
+    padding: 10px;
+       background-color:  rgba(217, 217, 217, 0.51);
+       margin-left: 50px;
+}
+
+h3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.mail a {
+    float: left;
+}
+.maps{
+margin-top: -600px;
+
+}
+h4 {
+    text-align: center;
+    color: #222;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.adresse p{
+ text-align: center;
+ color: #777;
+ font-size: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+.social {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
