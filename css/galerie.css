@@ -9,15 +9,17 @@
 body {
     background: url(../images/fond\ site\ opacité\ réduite.png)no-repeat;
     background-size: cover;
+
 }
 
 .row-limit-size {
-    max-width: 1200px;
+    min-width: 1200px;
     width: 100%;
     margin: 0 auto;
+
 }
 
-.picto-haut {
+.picto-haut{
     align-items: center;
     z-index: 2;
 }
@@ -73,130 +75,110 @@ header nav ul {
     text-transform: uppercase;
 }
 
+
+
 h1 {
     text-align: center;
     font-family: 'Jim Nightshade', cursive;
     margin-bottom: 70px;
+    font-size: 50px;
 }
 
-
-.mains {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.vernis {
-    background-color: #fff;
-    border: 1px solid #777;
-    width: 500px;
-    height: 300px;
+.boomer {
     text-align: center;
-    font-size: 25px;
     font-family: 'Jim Nightshade', cursive;
-    padding: 20px 10px;
-}
-
-.gel {
-    width: 500px;
-    height: 340px;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
 .gel img {
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
-.regard {
-    display: flex;
-    align-items: center;
+.prix {
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.institut img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
+}
+
+.galerie {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.soins {
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.visage {
+    width: 500px;
+    height: 340px;
+    margin-right: 80px;
+
+}
+
+.visage img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.idees {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+
+}
+
+.sourcils {
+    width: 500px;
+    height: 340px;
+}
+
+.sourcils img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
 }
 
 .cils {
     width: 500px;
     height: 340px;
+    margin-right: 80px;
 }
 
 .cils img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-.rehaussement {
-    background-color: #fff;
-    border: 1px solid #777;
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Jim Nightshade', cursive;
-    padding: 20px 10px;
-}
-
-.visage {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.lifting {
-    background-color: #fff;
-    border: 1px solid #777;
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Jim Nightshade', cursive;
-    padding: 20px 10px;
-}
-
-.soins {
-    width: 500px;
-    height: 340px;
-}
-
-.soins img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .fil {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.cire {
-    background-color: #fff;
-    border: 1px solid #777;
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Jim Nightshade', cursive;
-    padding: 20px 10px;
-}
-
-.epilation {
     width: 500px;
     height: 340px;
-    display: flex;
-    align-items: center;
-
 }
 
-.epilation img {
+.fil img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .adresse h5 {
