@@ -60,6 +60,7 @@ body {
 }
 
 @media screen and (max-width:900px) {
+
     .navbar {
         padding: 0;
     }
@@ -110,7 +111,7 @@ body {
     }
 
     .lieux {
-        width: 48%;
+        width: 100%;
     }
 
     .footer .row-limit-size {
@@ -146,7 +147,7 @@ h1 {
     text-align: center;
     font-family: 'Jim Nightshade', cursive;
     margin-bottom: 20px;
-    margin-top: -50px;
+    margin-top: 80px;
 }
 
 main h2 {

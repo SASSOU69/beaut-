@@ -117,6 +117,9 @@ body {
         height: auto;
     }
 
+    .lifting h3{
+        font-size: 25px;
+        }
     .lifting,.soins {
         width: 48%;
     }
@@ -193,6 +196,9 @@ h1 {
     padding: 20px 10px;
     line-height: 2;
 }
+.vernis h2{
+    font-size: 25px;
+    }
 
 .gel {
     width: 500px;
@@ -254,6 +260,14 @@ h1 {
     line-height: 2;
 }
 
+.lifting h4{
+    font-size: 25px;
+    }
+
+    .lifting p{
+        font-size: 23px;
+        }
+
 .soins {
     width: 500px;
     height: 340px;
@@ -283,6 +297,10 @@ h1 {
     padding: 20px 10px;
     line-height: 2;
 }
+
+.cire p{
+    font-size: 23px;
+    }
 
 .epilation {
     width: 500px;

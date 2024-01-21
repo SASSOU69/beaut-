@@ -103,7 +103,12 @@ header {
     body {
         background-size: cover; 
     }
-
+.ongles{
+    width: 100%;
+}
+    .tarifs{
+  width: 100%;
+    }
     h1 {
         font-size: 1.5em;
     }
@@ -181,6 +186,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .prix {
@@ -195,6 +201,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .galerie {

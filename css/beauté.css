@@ -107,15 +107,15 @@ header {
         height: 400px;
     }
     .presentation p {
-        font-size: 18px; 
+        font-size: 8px; 
         padding: 10px;
-        line-height: 1.5; 
+        margin-bottom: 20px;
     }
 
     .services p {
         font-size: 18px;
         padding: 10px; 
-        line-height: 1.5;
+        line-height: 1;
     }
 
     .detente {
@@ -167,15 +167,16 @@ header {
     background: url(../images/Spa\ &\ Beauty.jpg)no-repeat;
     height: 700px;
     background-size: cover;
+    margin-bottom: 80px;
 }
 
 .presentation p {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: #2b2823;
     font-family: 'Jim Nightshade', cursive;
     background: none;
-    margin-top: 200px;
+    margin-top: 150px;
     line-height: 1.3;
 }
 
