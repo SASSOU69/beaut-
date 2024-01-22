@@ -41,11 +41,13 @@ header {
     margin: 0 25px;
 }
 
+.navbar .nav-links ul li a{
+padding: 20px;
+}
 .navbar .nav-links ul li.active a {
     color: #222;
     font-weight: 600;
 }
-
 .navbar .menu-burger {
     display: none;
     position: absolute;
